@@ -60,6 +60,8 @@ h1{
   -webkit-text-fill-color: rgba(167, 146, 129, 0.721);
   text-fill-color: rgba(167, 146, 129, 0.721);
   color: rgba(167, 146, 129, 0.721);
+
+  
 }
 h2{
   font-family: 'Montserrat', sans-serif;
@@ -311,6 +313,7 @@ button {
 	height: 26px;
 	width: auto;
 	display: block;
+  position: absolute;
 }
 
 

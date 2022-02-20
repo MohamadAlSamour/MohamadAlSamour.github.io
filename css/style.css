@@ -313,7 +313,7 @@ button {
 	height: 26px;
 	width: auto;
 	display: block;
-  position: absolute;
+  position:fixed;
 }
 
 

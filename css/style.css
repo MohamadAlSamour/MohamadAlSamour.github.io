@@ -10,7 +10,7 @@
 	font-size: 15px;
 	line-height: 1.7;
 	color: #ececee;
-	background-color: #030514;
+	background-color: #170303;
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
   background-position: center;
   background-repeat: repeat;
@@ -50,7 +50,6 @@
   display: inline-block;
 }
 h1{
-  margin-top: 15%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 7vw;
@@ -178,7 +177,7 @@ button {
   z-index: 9;
   overflow: hidden;
   box-shadow: 0 8px 30px 0 rgba(0,0,0,0.3);
-  background-color: #7aaedc;
+  background-color: rgb(250, 8, 8);
   animation: border-transform 7s linear infinite;
   transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),  
               right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),

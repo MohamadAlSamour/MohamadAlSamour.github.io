@@ -60,6 +60,7 @@ h1{
   -webkit-text-fill-color: rgba(167, 146, 129, 0.721);
   text-fill-color: rgba(167, 146, 129, 0.721);
   color: rgba(167, 146, 129, 0.721);
+  padding-top: 25px;
 }
 h2{
   font-family: 'Montserrat', sans-serif;

@@ -311,6 +311,8 @@ button {
 	height: 26px;
 	width: auto;
 	display: block;
+  position:relative;
+  position:fixed;
 }
 
 

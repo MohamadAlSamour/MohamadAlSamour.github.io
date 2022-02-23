@@ -48,6 +48,10 @@
 .section-center img{
   position: relatve;
   display: inline-block;
+    border-radius: 50%;
+  margin-top: 15cm;
+  max-width: 100%;
+  width: 30%;
 }
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -68,7 +72,7 @@ h1{
 h2{
   font-family: 'Montserrat', sans-serif;
   color: #ffeba7;
-
+font-size: 4vh;
 }
 button {
   background-color: rgba(0, 0, 0, 0.333);
@@ -83,11 +87,10 @@ button {
               
 }
 
-.section-center img{
-  border-radius: 50%;
-  margin-top: 15cm;
-  max-width: 100%;
+h3{
+  font-size: 3vh;
 }
+
 
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked){
@@ -316,6 +319,8 @@ button {
 	width: auto;
 	display: block;
   position:fixed;
+  background-color: #170303;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
 }
 
 
@@ -331,7 +336,7 @@ button {
     right: 30px;
   }
   h1{
-    font-size: 9vw;
+    font-size: 9vh;
     -webkit-text-stroke: 2px transparent;
     text-stroke: 2px transparent;
     -webkit-text-fill-color: #ffeba7;

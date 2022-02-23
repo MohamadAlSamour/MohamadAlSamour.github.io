@@ -116,7 +116,7 @@ h3{
   content: '';
   display: block;
   width: 4vh;
-  height: 2.8vh;
+  height: 3.5vh;
   z-index: 20;
   top: 0;
   left: 0;
@@ -133,7 +133,7 @@ h3{
   position: absolute;
   content: '';
   display: block;
-  width: 4vh;
+  width: 3vh;
   height: 0.4vh;
   z-index: 20;
   top: 10px;

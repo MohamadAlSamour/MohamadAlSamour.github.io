@@ -60,7 +60,6 @@ h1{
   -webkit-text-fill-color: rgba(167, 146, 129, 0.721);
   text-fill-color: rgba(167, 146, 129, 0.721);
   color: rgba(167, 146, 129, 0.721);
-  padding-top: 25px;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
@@ -95,9 +94,9 @@ button {
 .menu-icon:not(:checked) + label{
   position: fixed;
   top: 63px;
-  right: 75px;
+  right: 10vh;
   display: block;
-  width: 30px;
+  width: 3.4vh;
   height: 30px;
   padding: 0;
   margin: 0;
@@ -109,14 +108,14 @@ button {
   position: absolute;
   content: '';
   display: block;
-  width: 30px;
+  width: 3.5vh;
   height: 20px;
   z-index: 20;
   top: 0;
   left: 0;
   border-top: 2px solid #ececee;
   border-bottom: 2px solid #ececee;
-  transition: border-width 100ms 1500ms ease, 
+  transition: border-width 100ms 150 0ms ease, 
               top 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1),
               height 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1), 
               background-color 200ms ease,
@@ -127,13 +126,12 @@ button {
   position: absolute;
   content: '';
   display: block;
-  width: 22px;
+  width: 3vh;
   height: 2px;
   z-index: 20;
   top: 10px;
-  right: 4px;
   background-color: #ececee;
-  margin-top: -1px;
+  margin-top: 1px;
   transition: width 100ms 1750ms ease, 
               right 100ms 1750ms ease,
               margin-top 100ms ease, 
@@ -152,7 +150,7 @@ button {
               transform 200ms 1700ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 .menu-icon:checked + label:after{
-  width: 30px;
+  width: 3.5vh;
   margin-top: 0;
   right: 0;
   transform: rotate(-45deg);
@@ -165,11 +163,12 @@ button {
 .nav{
   position: fixed;
   top: 33px;
-  right: 50px;
+  right: 5vh;
   display: block;
-  width: 80px;
+  width: 4.7%;
   height: 80px;
   padding: 0;
+  padding-right:2.9em;
   margin: 0;
   z-index: 9;
   overflow: hidden;

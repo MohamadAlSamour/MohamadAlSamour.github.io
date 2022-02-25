@@ -117,6 +117,7 @@ h3{
   display: block;
   width: 3.5vh;
   height: 20px;
+  min-width: 10px;
   z-index: 20;
   top: 0;
   left: 0;
@@ -135,6 +136,7 @@ h3{
   display: block;
   width: 3vh;
   height: 2px;
+  min-width: 6px;
   z-index: 20;
   top: 10px;
   background-color: #ececee;
@@ -170,12 +172,12 @@ h3{
 .nav{
   position: fixed;
   top: 33px;
-  right: 5vh;
+  right: 6vh;
   display: block;
-  width: 4.7%;
+  width: 4vh;
   height: 80px;
   padding: 0;
-  padding-right:2.9em;
+  padding-right:3.5em;
   margin: 0;
   z-index: 9;
   overflow: hidden;
@@ -316,6 +318,7 @@ h3{
 }
 .logo img {
 	height: 5vh;
+  min-height: 20px;
 	width: auto;
 	display: block;
   position:fixed;
@@ -414,7 +417,7 @@ h3{
 }
 
 .grid {
-  width: 100%;
+  width: 100vh;
   max-width: 60rem;
   margin-left: auto;
   margin-right: auto;
@@ -427,7 +430,7 @@ h3{
 }
 
 .grid-block {
-  width: 50%;
+  width: 50vh;
   min-height: 11.25rem;
   padding: 1rem;
 }

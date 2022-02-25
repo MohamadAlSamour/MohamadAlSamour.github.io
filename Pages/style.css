@@ -161,7 +161,7 @@ button {
 }
 
 .nav{
-  position: fixed;
+  position: absolute;
   top: 33px;
   right: 5vh;
   display: block;

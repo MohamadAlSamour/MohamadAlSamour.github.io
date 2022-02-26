@@ -60,10 +60,12 @@ h1{
   -webkit-text-fill-color: rgba(167, 146, 129, 0.721);
   text-fill-color: rgba(167, 146, 129, 0.721);
   color: rgba(167, 146, 129, 0.721);
+  padding: 10vh;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
   color: #ffeba7;
+  font-size: 4vh;
 
 }
 button {
@@ -161,14 +163,14 @@ button {
 }
 
 .nav{
-  position: absolute;
+  position: fixed;
   top: 33px;
-  right: 5vh;
+  right: 8vh;
   display: block;
-  width: 4.7%;
+  width: 4vh;
   height: 80px;
   padding: 0;
-  padding-right:2.9em;
+  padding-right:3.5em;
   margin: 0;
   z-index: 9;
   overflow: hidden;

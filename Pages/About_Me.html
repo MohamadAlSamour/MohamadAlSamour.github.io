@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/js.Index.js"></script> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,40 +14,54 @@
     <title>MO SR</title>
 </head>
 
-<body class="body" style="width: auto;">
+<body class="body">
   
-        <a href="index.html" class="logo">
-            <img src="img/Logo.png" alt="">
-        </a>
+
+
+    <a href="../index.html" class="logo">
+      <img src="../img/Logo.png" alt="">
+  </a>
+    
+
           <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
           <label for="menu-icon"></label>
           <nav class="nav"> 		
               <ul class="pt-5">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="../index.html">Home</a></li>
                   <li><a href="My_Work.html">Work</a></li>
                   <li><a href="About_Me.html">About me</a></li>
                   <li><a href="#">Contact</a></li>
               </ul>
           </nav>
 
-  <div class="section-center">
+
+          <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" style="background-color: red; position: fixed;" data-toggle="dropdown">
+              Language
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="About_Me.html" style="color:rgb(228, 248, 255); background-color: red;">EN</a>
+              <a class="dropdown-item" href="About_Me_NL.html">NL</a>
+            </div>
+          </div>
+
+
+  <div class="section-center" style="position:static;">
     
-      <img src="img/43_person.jpg.webp" alt="">
-      <div class="size">
+    <img src="../img/43_person.jpg.webp" alt="">
       <h1 class="mb-0">Hi, I'm Mohamad! </h1>
       <h3>22 years old software developer who lives in Den Bosch. Also a student at SintLucas in Eindhoven.<br> I am Working as a managerassistant in a supermarket. I have moved to the Netherlands since 2016.</h3>
       <div class="center">
         <div id="social-test">
+          <br>
           <h2>My Socials</h2>
         <ul class="social">
          <a href="https://www.facebook.com/m.sa.damascus0" target="_blank" ><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
-          <li><i class="fa fa-twitter" aria-hidden="true"></i>
         </li>
           <a href="https://www.instagram.com/mo__samour/" target="_blank"><li><i class="fa fa-instagram" aria-hidden="true"></i></li></a>
       
         </ul>
         </div>
-      </div>
           </div>
   </div>
 </body>

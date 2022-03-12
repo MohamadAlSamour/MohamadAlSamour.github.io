@@ -37,6 +37,54 @@
   background-color: #18222d;
   position: static;
 }
+.button {
+  border-radius: 4px;
+  background-color: rgb(250, 8, 8);
+  border: none;
+  
+  text-align: center;
+  font-size: 2vh;
+  padding: 2vh;
+  width: 20vh;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1vh auto;
+  display: block;
+  
+}
+
+.button a{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 2vh;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  padding-right: 14vh;
+  left: -2vh;
+  transition: 0.5s;
+ 
+}
+
+.button:hover span {
+  padding-right: 2vh;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 .bodyMyWork{
 	font-family: 'Montserrat', sans-serif;
     overflow: scroll;

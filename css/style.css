@@ -473,6 +473,7 @@ button {
 /*My work*/
 .htmlMyWork {
   box-sizing: border-box;
+
 }
 
 *,
@@ -491,10 +492,10 @@ button {
 
 .grid {
   width: 100%;
-  max-width: 60rem;
-  margin-left: 22rem;
-  margin-right: 19rem;
-  display: flex;
+  max-width: 70rem;
+  min-width: 35rem;
+  margin-left: 13rem;
+  display:flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   flex-direction: row;

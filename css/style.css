@@ -30,6 +30,7 @@
   background-repeat: repeat;
   background-size: 4%;
   position: fixed;
+  z-index: 10;
 }
 .header-my-work{
   width: 100%;
@@ -427,6 +428,7 @@ button {
 }
 
 #social-test {
+  z-index: 2;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -1056,3 +1058,123 @@ textarea.input100 {
     opacity: 1;
   }
 }
+
+
+/* my skills*/
+
+
+
+
+
+
+
+
+
+.skill {
+width: 99%;
+padding-left: 6%;
+background-color: #170303;
+background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+background-position: center;
+background-repeat: repeat;
+background-size: 4%;
+margin-top: 20px;
+padding-bottom: 30px;
+overflow: auto;
+}
+
+.skills {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 10px;
+margin-left: 10px;
+color: #afafaf;
+}
+
+.skill-bar{
+width: 90%;
+background-color: #ebebeb;
+height: 10px;
+position: relative;
+}
+
+.teamwork{
+width: 60%;
+height: 10px;
+background-color: orange;
+position: relative;
+z-index: 2;
+}
+
+.game_development{
+width: 65%;
+height: 10px;
+background-color: rgb(29, 8, 255);
+position: relative;
+z-index: 2;
+}
+
+.web_development{
+width: 75%;
+height: 10px;
+background-color: rgb(255, 0, 0);
+position: relative;
+z-index: 2;
+}
+
+.bunder{
+background-color:rgb(255, 0, 0);
+width:30px;
+height:30px;
+border-radius:50%;
+position:absolute;
+margin-top:-10px;
+margin-left:99%;
+}
+
+.bunder span{
+font-size:13px;
+position:absolute;
+margin-top:6px;
+margin-left:-7px;
+}
+
+.bunder1{
+background-color:orange;
+width:30px;
+height:30px;
+border-radius:50%;
+position:absolute;
+margin-top:-10px;
+margin-left:99%;
+}
+
+.bunder1 span{
+font-size:1.5vh;
+position:absolute;
+margin-top:6px;
+margin-left:-7px;
+}
+
+.bunder2{
+background-color:rgb(29, 8, 255);
+width:30px;
+height:30px;
+border-radius:50%;
+position:absolute;
+margin-top:-10px;
+margin-left:99%;
+}
+
+.bunder2 span{
+font-size:1.5vh;
+position:absolute;
+margin-top:6px;
+margin-left:-7px;
+color:white;
+}
+
+
+

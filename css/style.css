@@ -173,10 +173,10 @@ button {
 .menu-icon:checked + label,
 .menu-icon:not(:checked) + label{
   position: fixed;
-  top: 63px;
-  right: 10vh;
+  top: 6.3%;
+  right: 5%;
   display: block;
-  width: 3.4vh;
+  width: 1.5%;
   height: 30px;
   padding: 0;
   margin: 0;
@@ -188,10 +188,10 @@ button {
   position: absolute;
   content: '';
   display: block;
-  width: 3.5vh;
+  width: 3.2vh;
   height: 20px;
   min-width: 10px;
-  z-index: 20;
+  z-index: 9;
   top: 0;
   left: 0;
   border-top: 2px solid #ececee;
@@ -207,10 +207,10 @@ button {
   position: absolute;
   content: '';
   display: block;
-  width: 3vh;
+  width: 2vh;
   height: 2px;
   min-width: 6px;
-  z-index: 20;
+  z-index: 9;
   top: 10px;
   background-color: #ececee;
   margin-top: 1px;
@@ -232,9 +232,8 @@ button {
               transform 200ms 1700ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 .menu-icon:checked + label:after{
-  width: 3.5vh;
+  width: 3.2vh;
   margin-top: 0;
-  right: 0;
   transform: rotate(-45deg);
   transition: width 100ms ease,
               right 100ms ease,  
@@ -244,13 +243,15 @@ button {
 
 .nav{
   position: fixed;
-  top: 33px;
-  right: 7vh;
+  top: 3.5%;
+  min-height: 25px;
+  right: 3.6%;
   display: block;
-  width: 4vh;
-  height: 80px;
+  width: 4%;
+  min-width: 50px;
+  height: 8%;
   padding: 0;
-  padding-right:4em;
+  padding-right:4%;
   margin: 0;
   z-index: 9;
   overflow: hidden;

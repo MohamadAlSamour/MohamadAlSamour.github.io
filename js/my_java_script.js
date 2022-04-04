@@ -1,8 +1,15 @@
 
 
- function loaded(){
-    document.getElementById("arcade_video").style.display = ("none");
+ function loaded_Website(){
     document.getElementById("website").style.display = ("none");
+    document.getElementById("info").style.display = ("");
+    document.getElementById("info_button").style.boxShadow = ("none");
+    document.getElementById("info_button").style.display = ("none");
+
+ }
+
+ function loaded_Arcade(){
+    document.getElementById("arcade_video").style.display = ("none");
     document.getElementById("info").style.display = ("");
     document.getElementById("info_button").style.boxShadow = ("none");
     document.getElementById("info_button").style.display = ("none");

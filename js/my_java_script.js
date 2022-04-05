@@ -44,6 +44,10 @@ function loaded_Piano(){
     document.getElementById("info_button").style.boxShadow = ("none");
     document.getElementById("info_button").style.display = ("none");
 }
+function loaded_Contact(){
+    document.getElementById("My_Form").reset();
+}
+
 
 function Website()
 {
@@ -132,3 +136,4 @@ function See_Info_Piano(){
     document.getElementById("info_button").style.boxShadow = ("");
     document.getElementById("info_button").style.display = ("");
 }
+

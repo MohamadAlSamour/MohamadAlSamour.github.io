@@ -7,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/my_java_script.js"></script> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +15,8 @@
 </head>
 
 
-<body class="body">
+<body class="body" onload="loaded_Todo_App();">
   <div class="Header">
-    <button class="button"><a  href="My_Work.html"><span> Return</span></a></button>
   </div>
 
   
@@ -49,11 +49,34 @@
   <div style="margin-top: 25vh;">
     <h1 class="mb-0" style="font-size: 9vh;">ToDo App:</h1>
     <br>
-    <h2 style="font-size: 5vh;">In this project I developed an application in HTML and MySQL. I have learned to create a basic to do list and stored it in the localdata service. </h2>
 </div>
 
-<div class="embed-responsive embed-responsive-21by9" style="height: 80vh;">
-    <iframe class="embed-responsive-item" src="../Projects/ToDo App/index.html" allowfullscreen></iframe>
+<div style="grid-template-columns: 100%;"class="grid-container">
+  <div  class="grid-item0"><button class="button"><a  href="My_Work.html"><span> Back to My Work</span></a></button></div>
+</div>
+
+<div id="info" class="grid-container">
+  <div class="grid-item1">A little discription:</div>
+  <div class="grid-item2">In this project I developed an application in HTML and MySQL. I have learned to create a basic to do list and stored it in the localdata service. </div>
+  <div class="grid-item1">Used language/s:</div>
+  <div class="grid-item2">HTML, CSS, and MySQL</div>
+  <div class="grid-item1">Used tool/s:</div>
+  <div class="grid-item2">Visual Studio Code, XAMPP</div>
+</div>
+
+<div id="Todo_App"class="embed-responsive embed-responsive-21by9" style="height: 80vh;">
+  <iframe style="padding: 3%;" class="embed-responsive-item" src="../Projects/ToDo App/index.html" allowfullscreen></iframe>
+</div>
+
+<div style="grid-template-columns: 100%;"class="grid-container">
+  <div class="grid-item2" >
+    <button style="color: white;" type="button" id="info_button" onclick="See_Info_Todo_App();" class="btn">See Info</button>
+    <button style="color: white;" type="button" onclick="Show_Todo_App();" class="btn"> Try It</button>
+    <button style="color: white;"type="button" class="btn"><a style="text-decoration: none; color: white; font-family: 'Montserrat', sans-serif;" href="https://github.com/MohamadAlSamour/mohamadAlSamour.github.io/tree/main/Projects/first%20website" target="_blank">See Code</a></button>
   </div>
+</div>
+
+
+
 </body>
 </html>

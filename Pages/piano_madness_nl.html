@@ -6,15 +6,15 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/my_java_script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piano Madness</title>
 </head>
 
-<body class="body" style="width: auto;">
+<body class="body" style="width: auto;" onload="loaded_Piano();">
   <div class="Header">
-    <button class="button"><a  href="My_Work_Nl.html"><span> Terug</span></a></button>
   </div>
 <a href="indexNL.html" class="logo">
     <img src="../img/Logo.png" alt="">
@@ -44,14 +44,36 @@
   <div style="margin-top: 25vh;">
     <h1 class="mb-0" style="font-size: 9vh;">Piano Madness:</h1>
     <br>
-    <h2 style="font-size: 5vh;">
-        In dit project heb ik een mini piano applicatie ontwikkeld in c#. 
-Ik heb meer geleerd om in unity te werken.</h2>
 </div>
 
-  <div class="embed-responsive embed-responsive-16by9" style="height: 80vh;">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uHS_rPlfw-c "></iframe>
+
+<div style="grid-template-columns: 100%;"class="grid-container">
+  <div  class="grid-item0"><button class="button"><a  href="My_Work.html"><span> Terug naar Mijn Werk</span></a></button></div>
+</div>
+
+<div id="info" class="grid-container">
+  <div class="grid-item1">Algemeen:</div>
+  <div class="grid-item2">  In dit project heb ik een mini piano applicatie ontwikkeld in c#. 
+    Ik heb meer geleerd om in unity te werken.</div>
+  <div class="grid-item1">Gebruikte taal/en:</div>
+  <div class="grid-item2">C#</div>
+  <div class="grid-item1">Gebruikte programma/'s:</div>
+  <div class="grid-item2">Visual Studio & Unity</div>
+</div>
+
+<div id="Piano_video" class="embed-responsive embed-responsive-16by9" style="height: 80vh;">
+  <iframe style="padding: 3%;" class="embed-responsive-item" src="https://www.youtube.com/embed/uHS_rPlfw-c"></iframe>
+</div>
+
+<div style="grid-template-columns: 100%;"class="grid-container">
+  <div class="grid-item2" >
+    <button style="color: white;" type="button" id="info_button" onclick="See_Info_Piano();" class="btn">Bekijk Informatie</button>
+    <button style="color: white;" type="button" onclick="Show_Piano();" class="btn">Bekijk De Game</button>
+    <button style="color: white;"type="button" class="btn"><a style="text-decoration: none; color: white; font-family: 'Montserrat', sans-serif;" href="https://github.com/MohamadAlSamour/mohamadAlSamour.github.io/tree/main/Projects/first%20website" target="_blank">Bekijk Code</a></button>
   </div>
+</div>
+
+
 
 
 

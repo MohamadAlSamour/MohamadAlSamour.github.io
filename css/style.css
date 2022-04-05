@@ -48,11 +48,13 @@
   transition: all 0.5s;
   cursor: pointer;
   margin:  auto;
+  padding: auto;
   display: block;
 }
 
 /*grid system*/
 .grid-container {
+  padding: 3%;
     padding-top: 2vh;
   display: grid;
   grid-template-columns: 45% 55%;

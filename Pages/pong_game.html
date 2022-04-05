@@ -6,6 +6,7 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/my_java_script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +14,9 @@
 </head>
 
 
-<body class="body" style="width: auto;">
+<body class="body" style="width: auto;" onload="loaded_Pong();">
 
   <div class="Header">
-    <button class="button"><a  href="My_Work.html"><span> Return</span></a></button>
   </div>
 <a href="../index.html" class="logo">
     <img src="../img/Logo.png" alt="">
@@ -46,16 +46,34 @@
   <div style="margin-top: 25vh;">
     <h1 class="mb-0" style="font-size: 9vh;">Pong Game:</h1>
     <br>
-    <h2 style="font-size: 5vh;">In this project I developed a pong game. It was my first game which I made using unity. It wasn't that hard, but it was a lot of fun. The intention was to get acquainted with unity and see how it works.</h2>
 </div>
 
-<button style="margin-left: 50%; margin-bottom: 10%;"><a  href="../Games/Pong Game/index.html"><span> PLAY</span></a></button>
 
-<div class="embed-responsive embed-responsive-16by9" style="height: 80vh;">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nYRCxVkLZO4 "></iframe>
+
+  <div style="grid-template-columns: 100%;"class="grid-container">
+    <div  class="grid-item0"><button class="button"><a  href="My_Work.html"><span> Back to My Work</span></a></button></div>
   </div>
-
-
+  
+  <div id="info" class="grid-container">
+    <div class="grid-item1">A little information:</div>
+    <div class="grid-item2">In this project I developed a pong game. It was my first game which I made using unity. It wasn't that hard, but it was a lot of fun. The intention was to get acquainted with unity and see how it works.</div>
+    <div class="grid-item1">Used language/s:</div>
+    <div class="grid-item2">C#</div>
+    <div class="grid-item1">Used programma/'s:</div>
+    <div class="grid-item2">Visual Studio & Unity</div>
+  </div>
+  
+  <div id="Pong_video" class="embed-responsive embed-responsive-16by9" style="height: 80vh;">
+    <iframe style="padding: 3%;" class="embed-responsive-item" src="https://www.youtube.com/embed/nYRCxVkLZO4"></iframe>
+  </div>
+  
+  <div style="grid-template-columns: 100%;"class="grid-container">
+    <div class="grid-item2" >
+      <button style="color: white;" type="button" id="info_button" onclick="See_Info_Pong();" class="btn">See Information</button>
+      <button style="color: white;" type="button" onclick="Show_Pong();" class="btn">See Game</button>
+      <button style="color: white;"type="button" class="btn"><a style="text-decoration: none; color: white; font-family: 'Montserrat', sans-serif;" href="https://github.com/MohamadAlSamour/mohamadAlSamour.github.io/tree/main/Projects/first%20website" target="_blank">See Code</a></button>
+    </div>
+  </div>
 
 
 </body>

@@ -25,7 +25,22 @@
     <button id="acceptCookie" onclick="acceptCookie()">Accept</button>
   </div>
 
+  <script>
+    window.onload= ()=>{
+      console.log("test");
+    let input = document.cookie.split("=");
+    console.log(input);
+    let popUp = document.getElementById("cookiePopup"); // Define popUp here
+    if (input[0] === "myCookieName") {
+        popUp.classList.add("hide");
+        popUp.classList.remove("show");
+    } else {
+        popUp.classList.add("show");
+        popUp.classList.remove("hide");
+    }
+    };
 
+</script>
 
 
 <a href="indexNL.html" class="logo">

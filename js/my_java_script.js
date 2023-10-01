@@ -1,11 +1,10 @@
-
  function loaded_Website(){
     document.getElementById("website").style.display = ("none");
     document.getElementById("info").style.display = ("");
     document.getElementById("info_button").style.boxShadow = ("none");
     document.getElementById("info_button").style.display = ("none");
-
 }
+
 
 function loaded_Arcade(){
     document.getElementById("arcade_video").style.display = ("none");
@@ -136,4 +135,17 @@ function See_Info_Piano(){
     document.getElementById("info_button").style.boxShadow = ("");
     document.getElementById("info_button").style.display = ("");
 }
+
+function acceptCookie(){
+    let popUp = document.getElementById("cookiePopup");
+
+    let d = new Date();
+    d.setMinutes(2 + d.getMinutes());
+    d.setMinutes(d.getMinutes() + 2); // Add 2 minutes to the current time
+    document.cookie = "myCookieName=thisIsMyCookie; expires= " + d.toUTCString() + ";";
+    popUp.classList.add("hide");
+    popUp.classList.remove("show");
+    console.log(document.cookie);
+}
+
 
